@@ -7,11 +7,6 @@ branches:
   only:
     - master
 
-env:
-  global:
-    - secure: "YRS6gw2FhSlkRgXmzvyAdqEGLVZozrS4pESBlbX8Zi9zVIAI2+ExJb/GlhWSvcePeRBegvqE+/9K/joDEecEUacf0Ky7StCNZ4l4sKnE65ut7XOXwbhwKfOOHuFIqvrLMRKN+xFy3JrvN22v2dAoP5lR5yyz6pf6rX0PJjx0gYs="
-    - secure: "E0yI8WcCo5YdHywbMgyRRE3a/WbzXMnvCZsjPP0cPjFDjzqqDLefUoNKKxgDJDPTcreM7DjkXauIt6tw85hEMlvsWJ0svVWLFX9tNIt0EG3Tv3MxEoKkWfKBHC7JYpcwLVM9HoYVfdVBfdu0RAefrgdM+28HwCG/Q+toSPAuzdg="
-
 addons:
   postgresql: "9.3"
 
@@ -38,6 +33,4 @@ after_success:
 
 notifications:
   email:
-    - branden@fronteer.io
-    - nicolaas@fronteer.io
-    - simon@fronteer.io
+  - micah+github@cbcl.co.uk
