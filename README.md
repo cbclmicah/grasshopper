@@ -2,7 +2,7 @@ grasshopper
 ===========
 
 # Build status
-[![Build Status](https://travis-ci.org/cbclmicah/grasshopper.png?branch=master)](https://travis-ci.org/cbclmicah/grasshopper)
+[![Build Status](https://api.travis-ci.org/cbclmicah/grasshopper.svg)](https://travis-ci.org/cbclmicah/grasshopper)
 [![Coverage Status](https://coveralls.io/repos/fronteerio/grasshopper/badge.png)](https://coveralls.io/r/fronteerio/grasshopper)
 
 Grasshopper Event Engine
